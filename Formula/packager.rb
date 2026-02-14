@@ -7,7 +7,7 @@ class Packager < Formula
   license "BSD-3-Clause"
 
   def install
-    bin.install "packager-osx-x64" => "packager"
+    bin.install "packager-osx-arm64" => "packager"
   end
 
   test do
